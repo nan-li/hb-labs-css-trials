@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .inner {
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        margin-left: 50px;
+        margin-top: 50px;
+        display: inline-block;
+      }
+      .outer {
+        height: 200px;
+        width: 350px;
+        display: inline-block;
+      }
+      #left {
+        background-color: red;
+      }
+      #right {
+        background-color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="outer" id="left">
+      <div class="inner"></div>
+      <div class="inner"></div>
+    </div>
+    <div class="outer" id="right">
+      <div class="inner"></div>
+      <div class="inner"></div>
+    </div>
+  </body>
+
+</html>
